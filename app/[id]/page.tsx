@@ -118,7 +118,7 @@ export default function ProductDetails({ params }: ProductDetailsProps) {
     <div>
       <Header />
       <div className="flex flex-col m-auto justify-center p-5">
-        <h1 className="text-3xl font-bold">{product.name}</h1>
+        <h1 className="text-3xl font-bold m-auto">{product.name}</h1>
         <Image
           src={product.image}
           alt={product.name}
